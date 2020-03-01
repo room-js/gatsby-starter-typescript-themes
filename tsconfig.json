@@ -10,7 +10,8 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "typeRoots": [
-      "./node_modules/@types"
+      "./node_modules/@types",
+      "./@types"
     ],
     "plugins": [
       {
@@ -21,7 +22,9 @@
   "include": [
     "./**/*.ts",
     "./**/*.tsx",
-    "./**/*.css"
+    "./**/*.css",
+    "./**/*.scss",
+    "./@types"
   ],
   "exclude": [
     "/node_modules/"
