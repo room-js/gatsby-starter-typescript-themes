@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/",
     "sourceMap": true,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -11,11 +10,20 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "typeRoots": [
-      "./node_modules/@types",
-      "./@types"
+      "./node_modules/@types"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
     ]
   },
   "include": [
-    "./**/*.{ts|tsx}",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "./**/*.css"
+  ],
+  "exclude": [
+    "/node_modules/"
   ]
 }

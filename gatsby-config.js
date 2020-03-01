@@ -1,11 +1,14 @@
+require('ts-node').register();
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TypeScript Starter with themes support`,
+    title: `Gatsby TypeScript Starter themed with CSS variables`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@room_js`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

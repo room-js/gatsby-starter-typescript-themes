@@ -1,0 +1,9 @@
+.light {
+  --color-text: #000;
+  --color-bg: #fff;
+}
+
+.dark {
+  --color-text: #fff;
+  --color-bg: #000;
+}

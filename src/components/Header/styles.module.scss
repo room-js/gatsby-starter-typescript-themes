@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--color-text);
+}
+
+.h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+
+  a {
+    color: var(--color-text);
+  }
+}
+
+.themeToggleContainer {
+  position: absolute;
+  display: block;
+  top: 15px;
+  right: 15px;
+}
