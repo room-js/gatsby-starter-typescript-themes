@@ -1,10 +1,10 @@
 .main {
-  color: var(--color-text);
-  background-color: var(--color-bg);
   padding: 20px;
 }
 
 .page {
   background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: all .5s ease-in-out;
   min-height: 100vh;
 }
